@@ -9,6 +9,7 @@ class MemoTableTableViewController: UITableViewController {
         ["taguchi","fkoji"]
     ]
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
