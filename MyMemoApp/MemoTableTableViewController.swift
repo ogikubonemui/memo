@@ -5,8 +5,9 @@ import UIKit
 class MemoTableTableViewController: UITableViewController {
     
     var memos = [
-        ["blue","red","pink"],
-        ["taguchi","fkoji"]
+        ["title":"t1","detail":"d1"],
+        ["title":"t2","detail":"d2"],
+        ["title":"t3","detail":"d3"]
     ]
     
     
@@ -24,7 +25,7 @@ class MemoTableTableViewController: UITableViewController {
     
     // 行数がいくつあるか
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.memos[section].count
+        return self.memos.count
     }
     
     
@@ -32,15 +33,16 @@ class MemoTableTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MemoTableViewCell", for: indexPath)
         
         //memosのindexPath型のrow番目の情報が表示される
-        cell.textLabel?.text = memos[indexPath.section][indexPath.row]
+        cell.textLabel?.text = memos[indexPath.row]["title"]
+        cell.detailTextLabel?.text = memos[indexPath.row]["detail"]
         
         return cell
     }
     
-    // sectionごとにヘッダーをつけるための関数
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "section-\(section)"
-    }
+//    // sectionごとにヘッダーをつけるための関数
+//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        return "section-\(section)"
+//    }
     
     
     /*
