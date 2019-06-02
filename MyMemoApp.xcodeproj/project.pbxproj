@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		31DB38DB22A35EA9005CB4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB38DA22A35EA9005CB4E8 /* AppDelegate.swift */; };
-		31DB38DD22A35EA9005CB4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB38DC22A35EA9005CB4E8 /* ViewController.swift */; };
 		31DB38E022A35EA9005CB4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DB38DE22A35EA9005CB4E8 /* Main.storyboard */; };
 		31DB38E222A35EAA005CB4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DB38E122A35EAA005CB4E8 /* Assets.xcassets */; };
 		31DB38E522A35EAA005CB4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DB38E322A35EAA005CB4E8 /* LaunchScreen.storyboard */; };
 		31DB38ED22A361CD005CB4E8 /* MemoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB38EC22A361CD005CB4E8 /* MemoTableTableViewController.swift */; };
+		31DB38EF22A36B0E005CB4E8 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB38EE22A36B0E005CB4E8 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31DB38D722A35EA9005CB4E8 /* MyMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DB38DA22A35EA9005CB4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31DB38DC22A35EA9005CB4E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31DB38DF22A35EA9005CB4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31DB38E122A35EAA005CB4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31DB38E422A35EAA005CB4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31DB38E622A35EAA005CB4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31DB38EC22A361CD005CB4E8 /* MemoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableTableViewController.swift; sourceTree = "<group>"; };
+		31DB38EE22A36B0E005CB4E8 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		31DB38D922A35EA9005CB4E8 /* MyMemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				31DB38EE22A36B0E005CB4E8 /* MemoViewController.swift */,
 				31DB38DA22A35EA9005CB4E8 /* AppDelegate.swift */,
-				31DB38DC22A35EA9005CB4E8 /* ViewController.swift */,
 				31DB38DE22A35EA9005CB4E8 /* Main.storyboard */,
 				31DB38EC22A361CD005CB4E8 /* MemoTableTableViewController.swift */,
 				31DB38E122A35EAA005CB4E8 /* Assets.xcassets */,
@@ -139,8 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31DB38ED22A361CD005CB4E8 /* MemoTableTableViewController.swift in Sources */,
-				31DB38DD22A35EA9005CB4E8 /* ViewController.swift in Sources */,
 				31DB38DB22A35EA9005CB4E8 /* AppDelegate.swift in Sources */,
+				31DB38EF22A36B0E005CB4E8 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
